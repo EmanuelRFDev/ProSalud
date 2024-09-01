@@ -1,0 +1,38 @@
+
+package logica;
+
+import java.util.Date;
+import javax.persistence.Entity;
+
+@Entity
+public class Responsable extends Persona {
+    
+    //private int id_responsable;
+    private String tipoRespon;
+
+    public Responsable() {
+    }
+
+    public Responsable(String tipoRespon, int id, String dni, String nombre, String apellido, String telefono, String direccion, Date fecha_nac) {
+        super(id, dni, nombre, apellido, telefono, direccion, fecha_nac);
+        this.tipoRespon = tipoRespon;
+    }
+
+    /*
+    public int getId_responsable() {
+        return id_responsable;
+    }
+
+    public void setId_responsable(int id_responsable) {
+        this.id_responsable = id_responsable;
+    }
+    */
+    public String getTipoRespon() {
+        return tipoRespon;
+    }
+
+    public void setTipoRespon(String tipoRespon) {
+        this.tipoRespon = tipoRespon;
+    }
+    
+}
