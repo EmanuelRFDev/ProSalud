@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"com.mycompany.consultoriomedico.persistencia"},{"l":"com.mycompany.consultoriomedico.persistencia.exceptions"},{"l":"com.mycompany.consultoriomedico.persistencia.servlets"},{"l":"logica"}];updateSearchResults();
